@@ -7,6 +7,15 @@ def b_run_smb1_run():
  
  os.system("VirtuaNES\VirtuaNES.exe Rom\Super_Mario_Bros.nes")
 
+def b_run_smb2_run():
+ 
+ os.system("VirtuaNES\VirtuaNES.exe Rom\Super_Mario_Bros_2.nes")
+
+def b_run_smb3_run():
+ 
+ os.system("VirtuaNES\VirtuaNES.exe Rom\Super_Mario_Bros_3.nes")
+
+
 def b_run_go_github():
     github_url= "https://github.com/EarthlyEric/Super_Mario_Bros_Pack_GUI"
     webbrowser.open(github_url)

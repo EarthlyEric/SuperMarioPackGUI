@@ -9,10 +9,14 @@ with open("config\config.json", "r",encoding = "utf8") as config:
 if lang=="zh_tw":
   with open("lang\zh_tw.json", "r",encoding = "utf8") as lang_id:#載入語言文件(Taiwan)
    temp = json.load(lang_id)
-   b_run_smb1_lang = temp["b_run_smb1_lang"]
    mainwin_title_lang = temp["mainwin_title_lang"]
+   b_run_smb1_lang = temp["b_run_smb1_lang"]
+   b_run_smb2_lang = temp["b_run_smb2_lang"]
+   b_run_smb3_lang = temp["b_run_smb3_lang"]
 elif lang =="en_us":
  with open("lang\en_us.json", "r",encoding = "utf8") as lang_id:#載入語言文件(Engliah_USA)
    temp = json.load(lang_id)
-   b_run_smb1_lang = temp["b_run_smb1_lang"]
    mainwin_title_lang = temp["mainwin_title_lang"]
+   b_run_smb1_lang = temp["b_run_smb1_lang"]
+   b_run_smb2_lang = temp["b_run_smb2_lang"]
+   b_run_smb3_lang = temp["b_run_smb3_lang"]
