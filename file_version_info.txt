@@ -1,4 +1,4 @@
-Version: 1.2.3.4
+Version:1.2.3.4
 CompanyName: My Imaginary Company
 FileDescription: Simple App
 InternalName: Simple App
